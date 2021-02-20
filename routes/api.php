@@ -18,3 +18,6 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/getQuestions',[App\Http\Controllers\ApiController::class,'getQuestions']);
+Route::get('/test',[App\Http\Controllers\ApiController::class,'test']);
+Route::get('/getThemes',[App\Http\Controllers\ApiController::class,'getThemes']);
+Route::get('/getSubthemes',[App\Http\Controllers\ApiController::class,'getSubThemes']);
